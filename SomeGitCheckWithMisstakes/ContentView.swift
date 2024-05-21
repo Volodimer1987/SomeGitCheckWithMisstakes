@@ -19,6 +19,8 @@ struct ContentView: View {
                 .font(.system(size: 23, weight: .semibold))    .foregroundStyle(.green)
                 .fontWeight(.bold)
             
+            Text("Now i will try")
+            
         }
         .frame(maxWidth:.infinity,maxHeight: .infinity)
     }
