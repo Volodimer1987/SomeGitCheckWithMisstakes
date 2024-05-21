@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682F92742BFCD116009B66D8 /* StashScfyukCheckswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682F92732BFCD116009B66D8 /* StashScfyukCheckswift.swift */; };
 		68CC99BF2BFC83180024B616 /* SomeGitCheckWithMisstakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC99BE2BFC83180024B616 /* SomeGitCheckWithMisstakesApp.swift */; };
 		68CC99C12BFC83180024B616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC99C02BFC83180024B616 /* ContentView.swift */; };
 		68CC99C32BFC831A0024B616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CC99C22BFC831A0024B616 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		682F92732BFCD116009B66D8 /* StashScfyukCheckswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashScfyukCheckswift.swift; sourceTree = "<group>"; };
 		68CC99BB2BFC83180024B616 /* SomeGitCheckWithMisstakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeGitCheckWithMisstakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CC99BE2BFC83180024B616 /* SomeGitCheckWithMisstakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeGitCheckWithMisstakesApp.swift; sourceTree = "<group>"; };
 		68CC99C02BFC83180024B616 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				68CC99BE2BFC83180024B616 /* SomeGitCheckWithMisstakesApp.swift */,
 				68CC99C02BFC83180024B616 /* ContentView.swift */,
+				682F92732BFCD116009B66D8 /* StashScfyukCheckswift.swift */,
 				68CC99C22BFC831A0024B616 /* Assets.xcassets */,
 				68CC99C42BFC831A0024B616 /* SomeGitCheckWithMisstakes.entitlements */,
 				68CC99C52BFC831A0024B616 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				68CC99C12BFC83180024B616 /* ContentView.swift in Sources */,
 				68CC99BF2BFC83180024B616 /* SomeGitCheckWithMisstakesApp.swift in Sources */,
+				682F92742BFCD116009B66D8 /* StashScfyukCheckswift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
