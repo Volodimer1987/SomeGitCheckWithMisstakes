@@ -9,17 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack(alignment:.center) {
+        ZStack {
             Image("tree")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea(.all)
-            
-            Text("This new check with new repo in git")
-                .font(.system(size: 23, weight: .semibold))    .foregroundStyle(.green)
-                .fontWeight(.bold)
-            
-            Text("Now i will try")
+
+            VStack(spacing:20) {
+
+                Text("This new check with new repo in git")
+                    .font(.system(size: 23, weight: .semibold))    .foregroundStyle(.green)
+                    .fontWeight(.bold)
+                
+                Text("Now i will try")
+            }
             
         }
         .frame(maxWidth:.infinity,maxHeight: .infinity)
