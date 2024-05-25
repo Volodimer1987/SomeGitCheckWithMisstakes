@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		68280CE62BFCE7B30021BB22 /* SomeFolderCheckBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68280CE52BFCE7B30021BB22 /* SomeFolderCheckBranch.swift */; };
 		682AEA6D2C025792004B7302 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AEA6C2C025792004B7302 /* Tab.swift */; };
+		682AEA6F2C02588E004B7302 /* ContentTanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AEA6E2C02588E004B7302 /* ContentTanView.swift */; };
 		682F92742BFCD116009B66D8 /* StashScfyukCheckswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682F92732BFCD116009B66D8 /* StashScfyukCheckswift.swift */; };
 		683919092C011FA200D985F9 /* HackerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683919082C011FA200D985F9 /* HackerTextView.swift */; };
 		6839190B2C011FCC00D985F9 /* HuckerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839190A2C011FCC00D985F9 /* HuckerContentView.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		68280CE52BFCE7B30021BB22 /* SomeFolderCheckBranch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeFolderCheckBranch.swift; sourceTree = "<group>"; };
 		682AEA6C2C025792004B7302 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		682AEA6E2C02588E004B7302 /* ContentTanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTanView.swift; sourceTree = "<group>"; };
 		682F92732BFCD116009B66D8 /* StashScfyukCheckswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashScfyukCheckswift.swift; sourceTree = "<group>"; };
 		683919082C011FA200D985F9 /* HackerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextView.swift; sourceTree = "<group>"; };
 		6839190A2C011FCC00D985F9 /* HuckerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuckerContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				682AEA6C2C025792004B7302 /* Tab.swift */,
+				682AEA6E2C02588E004B7302 /* ContentTanView.swift */,
 			);
 			path = TabViewLesson;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682AEA6F2C02588E004B7302 /* ContentTanView.swift in Sources */,
 				68CC99C12BFC83180024B616 /* ContentView.swift in Sources */,
 				68CC99BF2BFC83180024B616 /* SomeGitCheckWithMisstakesApp.swift in Sources */,
 				6839190B2C011FCC00D985F9 /* HuckerContentView.swift in Sources */,
