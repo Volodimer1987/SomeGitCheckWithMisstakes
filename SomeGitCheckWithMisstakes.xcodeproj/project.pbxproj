@@ -41,12 +41,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		683919072C011F8800D985F9 /* Helpers */ = {
+		683919072C011F8800D985F9 /* Hucker */ = {
 			isa = PBXGroup;
 			children = (
+				6839190A2C011FCC00D985F9 /* HuckerContentView.swift */,
 				683919082C011FA200D985F9 /* HackerTextView.swift */,
 			);
-			path = Helpers;
+			path = Hucker;
 			sourceTree = "<group>";
 		};
 		68CC99B22BFC83180024B616 = {
@@ -68,8 +69,7 @@
 		68CC99BD2BFC83180024B616 /* SomeGitCheckWithMisstakes */ = {
 			isa = PBXGroup;
 			children = (
-				6839190A2C011FCC00D985F9 /* HuckerContentView.swift */,
-				683919072C011F8800D985F9 /* Helpers */,
+				683919072C011F8800D985F9 /* Hucker */,
 				68CC99BE2BFC83180024B616 /* SomeGitCheckWithMisstakesApp.swift */,
 				68CC99C02BFC83180024B616 /* ContentView.swift */,
 				682F92732BFCD116009B66D8 /* StashScfyukCheckswift.swift */,
