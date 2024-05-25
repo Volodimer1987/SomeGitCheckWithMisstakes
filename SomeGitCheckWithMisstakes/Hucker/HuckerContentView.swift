@@ -15,7 +15,7 @@ struct HuckerContentView: View {
         VStack(alignment:.leading,spacing: 12) {
             HackerTextView(text:myText,
                            trigger: trigger,
-                           transition: .interpolate,
+                           transition: .numericText(),
                            speed: 0.09)
                 .font(.largeTitle.bold())
                 .lineLimit(2)
