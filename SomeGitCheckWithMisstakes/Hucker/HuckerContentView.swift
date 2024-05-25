@@ -10,7 +10,7 @@ import SwiftUI
 struct HuckerContentView: View {
     
     @State private var trigger:Bool = false
-    @State private var myText = "This is Hucker Bobby"
+    @State private var myText = ""
     var body: some View {
         VStack(alignment:.leading,spacing: 12) {
             HackerTextView(text:myText,
@@ -24,7 +24,7 @@ struct HuckerContentView: View {
                 trigger.toggle()
                 if myText == "This is Hucker Bobby" {
                     myText = "No no this only video check"
-                } else if myText == "No no this only video check" {
+                } else {
                     myText = "This is Hucker Bobby" 
                 }
               

@@ -13,7 +13,7 @@ struct HackerTextView: View {
     var trigger:Bool
     var transition:ContentTransition = .interpolate
     var duration:CGFloat = 0.4
-    var speed:CGFloat = 0.1
+    var speed:CGFloat = 1.0
     
     @State private var animationId:String = UUID().uuidString
     @State private var animatedText = ""

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		68280CE62BFCE7B30021BB22 /* SomeFolderCheckBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68280CE52BFCE7B30021BB22 /* SomeFolderCheckBranch.swift */; };
+		682AEA6D2C025792004B7302 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AEA6C2C025792004B7302 /* Tab.swift */; };
 		682F92742BFCD116009B66D8 /* StashScfyukCheckswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682F92732BFCD116009B66D8 /* StashScfyukCheckswift.swift */; };
 		683919092C011FA200D985F9 /* HackerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683919082C011FA200D985F9 /* HackerTextView.swift */; };
 		6839190B2C011FCC00D985F9 /* HuckerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6839190A2C011FCC00D985F9 /* HuckerContentView.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		68280CE52BFCE7B30021BB22 /* SomeFolderCheckBranch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeFolderCheckBranch.swift; sourceTree = "<group>"; };
+		682AEA6C2C025792004B7302 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		682F92732BFCD116009B66D8 /* StashScfyukCheckswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashScfyukCheckswift.swift; sourceTree = "<group>"; };
 		683919082C011FA200D985F9 /* HackerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextView.swift; sourceTree = "<group>"; };
 		6839190A2C011FCC00D985F9 /* HuckerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuckerContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		682AEA6B2C025760004B7302 /* TabViewLesson */ = {
+			isa = PBXGroup;
+			children = (
+				682AEA6C2C025792004B7302 /* Tab.swift */,
+			);
+			path = TabViewLesson;
+			sourceTree = "<group>";
+		};
 		683919072C011F8800D985F9 /* Hucker */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 		68CC99BD2BFC83180024B616 /* SomeGitCheckWithMisstakes */ = {
 			isa = PBXGroup;
 			children = (
+				682AEA6B2C025760004B7302 /* TabViewLesson */,
 				683919072C011F8800D985F9 /* Hucker */,
 				68CC99BE2BFC83180024B616 /* SomeGitCheckWithMisstakesApp.swift */,
 				68CC99C02BFC83180024B616 /* ContentView.swift */,
@@ -165,6 +176,7 @@
 				683919092C011FA200D985F9 /* HackerTextView.swift in Sources */,
 				68280CE62BFCE7B30021BB22 /* SomeFolderCheckBranch.swift in Sources */,
 				682F92742BFCD116009B66D8 /* StashScfyukCheckswift.swift in Sources */,
+				682AEA6D2C025792004B7302 /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
