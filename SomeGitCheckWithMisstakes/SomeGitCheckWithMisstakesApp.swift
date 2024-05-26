@@ -11,7 +11,7 @@ import SwiftUI
 struct SomeGitCheckWithMisstakesApp: App {
     var body: some Scene {
         WindowGroup {
-            HuckerContentView()
+            ContentTanView()
         }
     }
 }
